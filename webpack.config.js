@@ -3,11 +3,11 @@ const path = require("path");
 
 const config = {
   entry: {
-    app: "./index.js",
-    offline: "./indexDB.js",
+    app: "./public/index.js",
+    offline: "./public/indexDB.js",
   },
   output: {
-    path: __dirname + "/dist",
+    path: __dirname + "./public/dist",
     filename: "[name].bundle.js"
   },
   mode: "development",
@@ -36,7 +36,7 @@ const config = {
       "theme-color": "#ffffff",
       start_url: "/",
       icons: [{
-        src: path.resolve("icons/icon-512x512.png"),
+        src: path.resolve("./public/icons/icon-512x512.png"),
         sizes: [192,512],
         destination: path.join("assets", "icons")
       }]
