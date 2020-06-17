@@ -35,7 +35,7 @@ User will be able to use the Budget Tracker to track the expense and income
 ## Demo
 ![appDemo1](./demo/demo.JPG)
 
-Demo Link : https://floating-plains-43446.herokuapp.com/
+Demo Link : https://still-stream-00919.herokuapp.com/
 
 ## Contributing
 
@@ -45,3 +45,5 @@ Max, github:https://github.com/Maxguojiaq
 express NPM: https://www.npmjs.com/package/express
 Mongoose: https://mongoosejs.com/
 MongoDB: https://www.mongodb.com/
+webpack: https://webpack.js.org/
+compression: https://www.npmjs.com/package/compression
