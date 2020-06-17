@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "engines" : { 
+    "node" : "10.13.0" 
+  },
   "scripts": {
     "heroku-postbuild": "webpack -p",
     "prestart": "webpack",
@@ -16,7 +19,7 @@
     "url": "git+https://github.com/coding-boot-camp/unit18hw.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "IBM",
   "bugs": {
     "url": "https://github.com/coding-boot-camp/unit18hw/issues"
   },
