@@ -33,14 +33,7 @@ User will be able to use the Budget Tracker to track the expense and income
 
 
 ## Demo
-Main Page
-![appDemo1](./Demos/demo1.JPG)
-
-Adding Exercise
-![appDemo2](./Demos/demo2.JPG)
-
-View Workouts
-![appDemo3](./Demos/demo3.JPG)
+![appDemo1](./demo/demo.JPG)
 
 Demo Link : https://floating-plains-43446.herokuapp.com/
 
