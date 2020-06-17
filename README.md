@@ -39,7 +39,7 @@ Demo Link : https://still-stream-00919.herokuapp.com/
 
 ## Contributing
 
-Max, github:https://github.com/Maxguojiaq
+Max, github:https://github.com/Maxguojiaqi
 
 ## Reference
 express NPM: https://www.npmjs.com/package/express
