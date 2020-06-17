@@ -1,12 +1,12 @@
 {
   "icons": [
     {
-      "src": "assets/icons/icon_512x512.2359d8c5512984950d88b5dd9631999c.png",
+      "src": "assets/icons/icon_512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon_192x192.7bcd6caee51150523b1902b37499b0cd.png",
+      "src": "assets/icons/icon_192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     }

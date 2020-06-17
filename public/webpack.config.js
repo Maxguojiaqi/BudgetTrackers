@@ -3,7 +3,8 @@ const path = require("path");
 
 const config = {
   entry: {
-    app: "./index.js"
+    app: "./index.js",
+    offline: "./indexDB.js",
   },
   output: {
     path: __dirname + "/dist",
@@ -26,6 +27,7 @@ const config = {
   },
   plugins: [
     new WebpackPwaManifest({
+      fingerprints: false,
       name: "BudgetTracker",
       short_name: "BT",
       description: "",

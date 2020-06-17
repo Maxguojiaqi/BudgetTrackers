@@ -1,3 +1,7 @@
+import { saveRecord, getRecord } from "./indexDB.js";
+
+
+
 let transactions = [];
 let myChart;
 
@@ -8,11 +12,16 @@ fetch("/api/transaction")
   .then(data => {
     // save db data on global variable
     transactions = data;
-
-    populateTotal();
-    populateTable();
-    populateChart();
+    getRecord(transactions, populatePage);
   });
+
+
+function populatePage(){
+  populateTotal();
+  populateTable();
+  populateChart();
+}
+
 
 function populateTotal() {
   // reduce transaction amounts to a single total value
