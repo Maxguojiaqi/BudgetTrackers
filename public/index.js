@@ -12,6 +12,7 @@ fetch("/api/transaction")
   .then(data => {
     // save db data on global variable
     transactions = data;
+    // pass render as a callback function to indexDB's getRecord
     getRecord(transactions, populatePage);
   });
 
